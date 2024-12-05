@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceder al Foro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f8f6f1;
+            color: #333;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background-color: white;
+            border-bottom: 1px solid #ccc;
+        }
+
+        header h1 {
+            font-size: 28px;
+            margin: 0;
+            color:#000;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #000;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #e39f91;
+        }
+
+        .header {
+            text-align: left;
+            padding: 40px 20px;
+        }
+
+        .header h2 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+    
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .description {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 16px;
+            color: #666;
+        }
+
+        .questions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .question-card {
+            flex: 1;
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            min-width: 45%;
+        }
+
+        .question-card p {
+            font-size: 14px;
+            color: #333;
+            margin: 0 0 15px 0;
+        }
+
+        .question-card button {
+            background-color: #d6bfb8;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .question-card button:hover {
+            background-color: #b89f9a;
+        }
+
+        .form-container {
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            margin: auto;
+        }
+
+        .form-container h3 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .form-container label {
+            display: block;
+            margin-bottom: 5px;
+            color: #666;
+        }
+
+        .form-container input,
+        .form-container textarea {
+            width: 96%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-container button {
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .form-container button:hover {
+            background-color: #555;
+        }
+
+        .footer-button {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .footer-button button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .footer-button button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Danza MID</h1>
+        <nav>
+            <a href="file:///C:/Users/pcMon/Desktop/ESCUELA/PROYECTOS/PAGINA/INICIO.html">INICIO</a>
+            <a href="file:///C:/Users/pcMon/Desktop/ESCUELA/PROYECTOS/PAGINA/EVENTO.html">EVENTOS</a>
+            <a href="file:///C:/Users/pcMon/Desktop/ESCUELA/PROYECTOS/PAGINA/GALERIA DE ARTE.html">GALERÍA DE ARTE</a>
+            <a href="file:///C:/Users/pcMon/Desktop/ESCUELA/PROYECTOS/PAGINA/ACCEDER AL FORO.html">ACCEDER AL FORO</a>
+            <a href="file:///C:/Users/pcMon/Desktop/ESCUELA/PROYECTOS/PAGINA/MI PERFIL.html">MI PERFIL</a>
+        </nav>
+    </header>
+    <div class="header">
+        <h2>-FORO DE DANZA-</h2>
+        <p class="description">
+            El foro de danza es un espacio de encuentro para bailarines, coreógrafos y amantes del movimiento, donde se comparten ideas, experiencias y se exploran nuevas tendencias a través de conferencias y mesas de diálogo. ¡Un lugar para reflexionar y enriquecer la práctica de la danza!
+        </p>
+        <div class="questions">
+            <div class="question-card">
+                <p>¿Cómo crees que la fusión de las tradiciones culturales locales con las tendencias artísticas contemporáneas influye en la evolución del arte en Yucatán? ¿Qué impacto tiene en la comunidad artística y en el público en general?</p>
+            </div>
+            <div class="question-card">
+                <p>¿Cómo puede la danza contemporánea contribuir a preservar las tradiciones culturales locales sin perder su esencia de innovación?</p>
+            </div>
+        </div>
+        <div class="footer-button">
+        </div>
+        <div class="form-container">
+            <h3>- ADJUNTA UN COMENTARIO -</h3>
+            <form>
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required>
+                <label for="title">Título</label>
+                <input type="text" id="title" name="title" required>
+                <label for="message">Mensaje</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">ENVIAR</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

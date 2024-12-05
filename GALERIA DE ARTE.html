@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Arte</title>
+    <style>
+        /* Estilos generales */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f8f6f1;
+            color: #333;
+        }
+
+        /* Estilo de la barra de navegación */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fff;
+            padding: 15px 30px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .navbar h1 {
+            font-size: 28px;
+            margin: 0;
+            color: #000;
+        }
+
+        .navbar a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            color: #e39f91;
+        }
+
+        /* Estilo del encabezado */
+        .header {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .header h2 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        /* Contenedor de la galería */
+        .gallery-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        /* Tarjetas de la galería */
+        .card {
+            background-color: #fff;
+            width: 200px;
+            height: 250px;
+            border-radius: 10px;
+            box-shadow: 0 8px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 10px 0;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .button {
+        display: inline-block;
+        padding: 10px 15px;
+        font-size: 14px;
+        text-align: center;
+        background-color: #333;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        cursor: pointer;
+        }
+
+        .button:hover {
+        background-color: #555;
+        }
+
+        .card button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            margin: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .card button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <div class="navbar">
+        <h1>Danza MID</h1>
+        <div>
+            <a href="file:///C:/Users/pcMon/Desktop/ESCUELA/PROYECTOS/PAGINA/INICIO.html">INICIO</a>
+            <a href="file:///C:/Users/pcMon/Desktop/ESCUELA/PROYECTOS/PAGINA/EVENTO.html">EVENTOS</a>
+            <a href="file:///C:/Users/pcMon/Desktop/ESCUELA/PROYECTOS/PAGINA/GALERIA DE ARTE.html">GALERÍA DE ARTE</a>
+            <a href="file:///C:/Users/pcMon/Desktop/ESCUELA/PROYECTOS/PAGINA/ACCEDER AL FORO.html">ACCEDER AL FORO</a>
+            <a href="file:///C:/Users/pcMon/Desktop/ESCUELA/PROYECTOS/PAGINA/MI PERFIL.html">MI PERFIL</a>
+        </div>
+    </div>
+
+    <!-- Encabezado -->
+    <div class="header">
+        <h2>-GALERÍA DE ARTE-</h2>
+    </div>
+
+    <!-- Galería -->
+    <div class="gallery-container">
+        <!-- Tarjeta 1 -->
+        <div class="card">
+            <img src="GALERIA DE ARTE 1.jpg" alt="Los amantes">
+            <h3>Los Amantes</h3>
+            <a href="file:///C:/Users/pcMon/Desktop/ESCUELA/PROYECTOS/PAGINA/LOS AMANTES.html" class="button">CONOCE MÁS</a>
+        </div>
+        <!-- Tarjeta 2 -->
+        <div class="card">
+            <img src="GALERIA DE ARTE 2.jpg" alt="Paulina herrera">
+            <h3>Paulina Herrera</h3>
+            <a href="file:///C:/Users/pcMon/Desktop/ESCUELA/PROYECTOS/PAGINA/PAULINA HERRERA.html" class="button">CONOCE MÁS</a>
+        </div>
+        <div class="card">
+            <img src="GALERIA DE ARTE 3.jpg" alt="ALKIMA IK">
+            <h3>Iván Guerra</h3>
+            <a href="file:///C:/Users/pcMon/Desktop/ESCUELA/PROYECTOS/PAGINA/IVÁN GUERRA.html"  class="button">CONOCE MÁS</a>
+        </div>
+        <!-- Tarjeta 4 -->
+        <div class="card">
+            <img src="GALERIA DE ARTE 4.jpg" alt="ALKIMA IK">
+            <h3>Winter</h3>
+            <a href="file:///C:/Users/pcMon/Desktop/ESCUELA/PROYECTOS/PAGINA/WINTER.html" class="button">CONOCE MÁS</a>
+        </div>
+    </div>
+
+</body>
+</html>
+

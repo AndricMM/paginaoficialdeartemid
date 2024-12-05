@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f8f6f1;
+            color: #333;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 30px;
+            background-color: white;
+            border-bottom: 1px solid #ccc;
+        }
+
+        header h1 {
+            font-size: 28px;
+            margin: 0;
+            color:#000;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #000;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .navbar a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #e39f91;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .event {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+            padding: 15px;
+            background-color: #ffffff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .event img {    
+            width: 100%;
+            max-width: 300px;
+            height: 250px;
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+
+        .event-content {
+            flex: 1;
+        }
+
+        .event-content h2 {
+            font-size: 20px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .event-content p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .event-content .button {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        
+        .event-content .button:hover {
+            background-color: #555;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Danza MID</h1>
+        <nav>
+            <a href="file:///C:/Users/pcMon/Desktop/ESCUELA/PROYECTOS/PAGINA/INICIO.html">INICIO</a>
+            <a href="file:///C:/Users/pcMon/Desktop/ESCUELA/PROYECTOS/PAGINA/EVENTO.html">EVENTOS</a>
+            <a href="file:///C:/Users/pcMon/Desktop/ESCUELA/PROYECTOS/PAGINA/GALERIA DE ARTE.html">GALERÍA DE ARTE</a>
+            <a href="file:///C:/Users/pcMon/Desktop/ESCUELA/PROYECTOS/PAGINA/ACCEDER AL FORO.html">ACCEDER AL FORO</a>
+            <a href="file:///C:/Users/pcMon/Desktop/ESCUELA/PROYECTOS/PAGINA/MI PERFIL.html">MI PERFIL</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="event">
+            <img src="EVENTOS 2.jpg" alt="Ritmos del Mayab">
+            <div class="event-content">
+                <h2>Jarana Yucateca</h2>
+                <p>En Yucatán, la jarana es un estilo de música y baile tradicional, muy asociado con las fiestas populares y los eventos comunitarios. Este género musical es rápido, alegre y generalmente interpretado con instrumentos como la guitarra, el güiro y las trompetas. El baile es caracterizado por movimientos enérgicos y vistosos trajes típicos, como el huipil bordado en las mujeres y el traje blanco con sombrero en los hombres.</p>
+                <a href="file:///C:/Users/pcMon/Desktop/ESCUELA/PROYECTOS/PAGINA/EVENTO 1.html" class="button">¡Únete al evento!</a>
+            </div>
+        </div>
+        <div class="event">
+            <img src="EVENTOS 1.jpg" alt="Fusión de Fuegos">
+            <div class="event-content">
+                <h2>Ballet</h2>
+                <p>El ballet es una forma de danza escénica que combina movimientos precisos, expresión artística y música para contar historias, evocar emociones o simplemente deleitar al espectador con su belleza y técnica. Se originó durante el Renacimiento en Italia y fue perfeccionado en Francia y Rusia, convirtiéndose en una disciplina artística de gran prestigio.</p>
+                <a href="file:///C:/Users/pcMon/Desktop/ESCUELA/PROYECTOS/PAGINA/EVENTO 2.html" class="button">¡Únete al evento!</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

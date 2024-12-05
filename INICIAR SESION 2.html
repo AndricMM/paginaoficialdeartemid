@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <style>
+        /* Estilo básico */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .register-container {
+            background: white;
+            padding: 20px 30px;
+            border-radius: 10px;
+            width: 350px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .register-container h1 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .register-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .register-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4facfe;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .register-container button:hover {
+            background-color: #0078ff;
+        }
+
+        .register-container p {
+            margin-top: 15px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .register-container a {
+            color: #0078ff;
+            text-decoration: none;
+        }
+
+        .register-container a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Contenedor del formulario -->
+    <div class="register-container">
+        <h1>Cuenta</h1>
+        <form action="tu-script-de-registro" method="post">
+            <input type="text" name="username" placeholder="Nombre de usuario" required>
+            <input type="email" name="email" placeholder="Correo electrónico" required>
+            <input type="password" name="password" placeholder="Contraseña" required>
+            <input type="password" name="confirm_password" placeholder="Confirmar contraseña" required>
+            <button type="text"><a href="file:///C:/Users/pcMon/Desktop/ESCUELA/PROYECTOS/PAGINA/INICIO.html">Registrar</a></button>
+        </form>
+        <p>¿Ya tienes una cuenta? <a href="file:///C:/Users/pcMon/Desktop/ESCUELA/PROYECTOS/PAGINA/INICAR%20SESION.html">Inicia sesión aquí</a></p>
+    </div>
+</body>
+</html>
